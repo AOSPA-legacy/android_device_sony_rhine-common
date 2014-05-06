@@ -81,7 +81,10 @@ PRODUCT_PACKAGES += \
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
-    e2fsck
+    e2fsck \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat
 
 # FM Radio
 PRODUCT_COPY_FILES += \
